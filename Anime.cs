@@ -7,8 +7,29 @@ using System.Threading.Tasks;
 
 namespace Trabalho_LP3
 {
-    internal class Anime: Cinemagraph, qtd_eps
+    internal class Anime : Cinemagraph, IQtd_eps
     {
-        public Anime() { }
+        private int ano;
+        private int eps;
+
+        public Anime(string nome, int duração, string? streaming, int ano, int eps, string? mandachuva) : base(nome, duração, streaming, mandachuva)
+        {
+            this.ano = ano;
+            this.eps = eps;
+        }
+        public void mostrarQtdDeEps()
+        {
+
+            Console.WriteLine("Quantidade de epidodios: " + this.eps);
+        }
+        public void mostrarAnoLancamento()
+        {
+            Console.WriteLine("Ano de lançamento: " + this.ano);
+        }
+        public void mostrarInfoAnime()
+        {
+            this.mostrarInfo();
+        }
+
     }
 }

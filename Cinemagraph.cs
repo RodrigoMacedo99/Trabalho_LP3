@@ -9,14 +9,29 @@ namespace Trabalho_LP3
     public abstract class Cinemagraph
     {
         String nome;
-        int duração;
+        int duracao;
         string? streaming;
-        protected Cinemagraph(string nome, int duração, string? streaming)
+        string? mandaChuva;
+        protected Cinemagraph(string nome, int duracao, string? streaming, string? mandaChuva)
         {
             this.nome = nome;
-            this.duração = duração;
             this.streaming = streaming;
+            this.duracao = duracao;
+            this.mandaChuva = mandaChuva;
         }
-        //oi mundo ha
+
+        public void mostrarInfo()
+        {
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("Nome: " + this.nome);
+            Console.WriteLine("Duracao: " + this.duracao);
+            Console.WriteLine("Streaming: " + this.streaming);
+            Console.WriteLine("----------------------------------------------------");
+        }
+
+        public void mostrarMandaChuva()
+        {
+            Console.WriteLine("O diretor dessa joça é: "+ this.mandaChuva);
+        }
     }
 }

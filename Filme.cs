@@ -11,7 +11,14 @@ namespace Trabalho_LP3
     {
         string? adaptação;
 
-        public Filme(){ }
-    
+        public Filme(string nome, int duração, string? streaming, string? adaptação, string? mandachuva) : base(nome, duração, streaming, mandachuva)
+        {
+            this.adaptação = adaptação;
+        }
+
+        public void mostrarInfoFilme()
+        {
+            this.mostrarInfo();
+        }
     }
 }
