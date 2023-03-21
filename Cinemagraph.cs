@@ -11,6 +11,12 @@ namespace Trabalho_LP3
         String nome;
         int duração;
         string? streaming;
+        protected Cinemagraph(string nome, int duração, string? streaming)
+        {
+            this.nome = nome;
+            this.duração = duração;
+            this.streaming = streaming;
+        }
         //oi mundo
     }
 }
