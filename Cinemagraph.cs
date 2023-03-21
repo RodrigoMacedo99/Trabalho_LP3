@@ -22,11 +22,11 @@ namespace Trabalho_LP3
 
         public void mostrarInfo()
         {
-            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("\n----------------------------------------------------");
             Console.WriteLine("Nome: " + this.nome);
-            Console.WriteLine("Duracao: " + this.duracao);
+            Console.WriteLine("Duracao: " + this.duracao + "h");
             Console.WriteLine("Streaming: " + this.streaming);
-            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("----------------------------------------------------\n");
         }
 
         public void mostrarMandaChuva()
