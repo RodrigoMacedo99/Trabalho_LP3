@@ -1,0 +1,39 @@
+﻿GitHub Copilot 1.77.0.0 (v1.77.0.0@1b89dfbba)
+GitHub Copilot Agent v1.77.0
+Please open https://github.com/login/device and enter the device activation code A5B6-5127 that has been copied to the clipboard.
+[Error] An error occurred for 'RunOperation:SignInConfirmAsync': StreamJsonRpc.RemoteInvocationException: Timed out waiting for login to complete
+   em StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__145`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em GitHub.Copilot.CopilotClient.<RunOperation>d__20`1.MoveNext()
+[Error] An error occurred for 'RunOperation:RunOperation': StreamJsonRpc.RemoteInvocationException: No pending sign in
+   em StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__145`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em GitHub.Copilot.CopilotClient.<RunOperation>d__20`1.MoveNext()
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
+NotSignedIn
