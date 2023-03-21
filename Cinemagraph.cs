@@ -24,7 +24,7 @@ namespace Trabalho_LP3
         {
             Console.WriteLine("\n----------------------------------------------------");
             Console.WriteLine("Nome: " + this.nome);
-            Console.WriteLine("Duracao: " + this.duracao + "h");
+            Console.WriteLine("Duracao: " + this.duracao);
             Console.WriteLine("Streaming: " + this.streaming);
             Console.WriteLine("----------------------------------------------------\n");
         }
