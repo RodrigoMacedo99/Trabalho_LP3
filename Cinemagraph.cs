@@ -17,6 +17,6 @@ namespace Trabalho_LP3
             this.duração = duração;
             this.streaming = streaming;
         }
-        //oi mundo
+        //oi mundo ha
     }
 }
