@@ -26,6 +26,20 @@ namespace Trabalho_LP3
         {
             Console.WriteLine("Ano de lançamento: " + this.ano);
         }
+
+        /*
+        public override void mostrarInfo()
+        {
+            Console.WriteLine("\n----------------------------------------------------");
+            Console.WriteLine("Nome: " + this.nome);
+            Console.WriteLine("Duracao: " + this.duracao + "min");
+            Console.WriteLine("Streaming: " + this.streaming);
+            this.mostrarMandaChuva();
+            Console.WriteLine("----------------------------------------------------\n");
+
+        }*/
+
+        
         public void mostrarInfoAnime()
         {
             this.mostrarInfo();

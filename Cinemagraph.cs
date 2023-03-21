@@ -8,10 +8,10 @@ namespace Trabalho_LP3
 {
     public abstract class Cinemagraph
     {
-        String nome;
-        int duracao;
-        string? streaming;
-        string? mandaChuva;
+        public String nome;
+        public int duracao;
+        public string? streaming;
+        public string? mandaChuva;
         protected Cinemagraph(string nome, int duracao, string? streaming, string? mandaChuva)
         {
             this.nome = nome;
@@ -20,11 +20,11 @@ namespace Trabalho_LP3
             this.mandaChuva = mandaChuva;
         }
 
-        public void mostrarInfo()
+        public virtual void mostrarInfo()
         {
             Console.WriteLine("\n----------------------------------------------------");
             Console.WriteLine("Nome: " + this.nome);
-            Console.WriteLine("Duracao: " + this.duracao + "h");
+            Console.WriteLine("Duracao: " + this.duracao); //adicionar exemplo de medida de tempo
             Console.WriteLine("Streaming: " + this.streaming);
             Console.WriteLine("----------------------------------------------------\n");
         }
