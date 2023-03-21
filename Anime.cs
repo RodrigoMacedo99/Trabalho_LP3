@@ -9,6 +9,6 @@ namespace Trabalho_LP3
 {
     internal class Anime: Cinemagraph, qtd_eps
     {
-
+        public Anime() { }
     }
 }

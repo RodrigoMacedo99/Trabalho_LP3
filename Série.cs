@@ -8,6 +8,6 @@ namespace Trabalho_LP3
 {
     internal class Série: Cinemagraph, qtd_eps
     {
-
+        public Série() { }
     }
 }

@@ -11,5 +11,6 @@ namespace Trabalho_LP3
         String nome;
         int duração;
         string? streaming;
+        //oi mundo
     }
 }

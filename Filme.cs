@@ -10,6 +10,8 @@ namespace Trabalho_LP3
     internal class Filme : Cinemagraph
     {
         string? adaptação;
+
+        public Filme(){ }
     
     }
 }
