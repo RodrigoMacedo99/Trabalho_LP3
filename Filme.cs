@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_LP3
 {
-    internal class Filme : Cinemagraph
+    internal class Filme : Cinemagraph, IMostrarInfo
     {
         string? adaptação;
 
@@ -16,9 +16,19 @@ namespace Trabalho_LP3
             this.adaptação = adaptação;
         }
 
-        public void mostrarInfoFilme()
+        public void mostrarAdap()
         {
-            this.mostrarInfo();
+            Console.WriteLine("Obra original: " + this.adaptação);
+        }
+        public void mostrarInfo()
+        {
+            Console.WriteLine("\n----------------------------------------------------");
+            Console.WriteLine("Nome: " + this.nome);
+            Console.WriteLine("Duracao: " + this.duracao + "h");
+            Console.WriteLine("Streaming: " + this.streaming);
+            this.mostrarAdap();
+            this.mostrarMandaChuva();
+            Console.WriteLine("----------------------------------------------------\n");
         }
     }
 }

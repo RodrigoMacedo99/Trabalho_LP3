@@ -20,18 +20,9 @@ namespace Trabalho_LP3
             this.mandaChuva = mandaChuva;
         }
 
-        public virtual void mostrarInfo()
-        {
-            Console.WriteLine("\n----------------------------------------------------");
-            Console.WriteLine("Nome: " + this.nome);
-            Console.WriteLine("Duracao: " + this.duracao); //adicionar exemplo de medida de tempo
-            Console.WriteLine("Streaming: " + this.streaming);
-            Console.WriteLine("----------------------------------------------------\n");
-        }
-
         public void mostrarMandaChuva()
         {
-            Console.WriteLine("O diretor dessa joça é: "+ this.mandaChuva);
+            Console.WriteLine("O diretor dessa joça é: "+ this.mandaChuva); //Mantemos essa função para ficar como "mal exemplo"
         }
     }
 }
