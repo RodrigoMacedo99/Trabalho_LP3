@@ -20,6 +20,7 @@ namespace Trabalho_LP3
             this.mandaChuva = mandaChuva;
         }
 
+<<<<<<< HEAD
         public virtual void mostrarInfo()
         {
             Console.WriteLine("\n----------------------------------------------------");
@@ -33,9 +34,11 @@ namespace Trabalho_LP3
             Console.WriteLine("----------------------------------------------------\n");
         }
 
+=======
+>>>>>>> b0357031eba643aea259afec455d6cd15e58324d
         public void mostrarMandaChuva()
         {
-            Console.WriteLine("O diretor dessa joça é: "+ this.mandaChuva);
+            Console.WriteLine("O diretor dessa joça é: "+ this.mandaChuva); //Mantemos essa função para ficar como "mal exemplo"
         }
     }
 }

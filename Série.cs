@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_LP3
 {
-    internal class Serie: Cinemagraph, IQtd_eps
+    internal class Serie: Cinemagraph, IQtd_eps, IMostrarInfo
     {
         private int eps;
 
@@ -20,10 +20,15 @@ namespace Trabalho_LP3
             Console.WriteLine("Quantidade de epidodios: " + this.eps);
         }
 
-        public void mostrarInfoSerie()
+        public void mostrarInfo()
         {
-            this.mostrarInfo();
+            Console.WriteLine("\n----------------------------------------------------");
+            Console.WriteLine("Nome: " + this.nome);
+            Console.WriteLine("Duracao: " + this.duracao + "min");
+            Console.WriteLine("Streaming: " + this.streaming);
+            this.mostrarQtdDeEps();
             this.mostrarMandaChuva();
+            Console.WriteLine("----------------------------------------------------\n");
         }
     }
 }

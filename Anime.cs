@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_LP3
 {
-    internal class Anime : Cinemagraph, IQtd_eps
+    internal class Anime : Cinemagraph, IQtd_eps, IMostrarInfo
     {
         private int ano;
         private int eps;
@@ -26,23 +26,15 @@ namespace Trabalho_LP3
         {
             Console.WriteLine("Ano de lançamento: " + this.ano);
         }
-
-        /*
-        public override void mostrarInfo()
+        public void mostrarInfo()
         {
             Console.WriteLine("\n----------------------------------------------------");
             Console.WriteLine("Nome: " + this.nome);
             Console.WriteLine("Duracao: " + this.duracao + "min");
             Console.WriteLine("Streaming: " + this.streaming);
+            this.mostrarQtdDeEps();
             this.mostrarMandaChuva();
             Console.WriteLine("----------------------------------------------------\n");
-
-        }*/
-
-        
-        public void mostrarInfoAnime()
-        {
-            this.mostrarInfo();
         }
 
     }
