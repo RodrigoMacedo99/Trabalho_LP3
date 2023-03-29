@@ -11,7 +11,7 @@ internal class Program
 
         laranjinha.mostrarInfoFilme();
         lapa.mostrarInfoSerie();
-        soussa.mostrarInfoAnime();
+        soussa.mostrarInfo();
 
     }
 }
